@@ -5,7 +5,8 @@ Here is a step-by-step on how I built a full web app on AWS - [Tutorial by Tiny 
 
 ### Requirements
 - AWS account
-- Text editor (Notepad, VSCode, or anyone you are familiar with)
+- Text editor (e.g Notepad, VSCode, or anyone you are familiar with)
+- Basic kinowledge of AWS
 
 #### Step 1
 - Create a new file named index.html on your device
