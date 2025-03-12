@@ -42,37 +42,54 @@ Beginner
 6. Choose **Python 3.9** for **Runtime**.  
 7. Leave all other settings at default.  
 8. Click **Create function** at the lower-right corner.
-9. ### Step 4: Update and Test the Lambda Function
-10. Scroll down to the **Code** tab.
-11. Replace the default code with the code from [this link](https://github.com/KokoScripts/AWS-Web-Project/blob/main/Original-Lambda.txt).
-12. Press **Ctrl + S** to save.
-13. Click **Deploy**. A confirmation message should appear: *Successfully updated the function (App Name).*
-14. Click **Test**, then select **Create new test event**.
-15. In the test event panel on the right, enter an **Event name** of your choice.
-16. Keep the event **Private**.
-17. Delete **Key3** and **Value3**.
-18. Replace **Value1** and **Value2** with numbers (remove quotation marks and the last comma).
-19. Scroll up and click **Save**.
+9. Scroll down to the **Code** tab.
+10. Replace the default code with the code from [this link](https://github.com/KokoScripts/AWS-Web-Project/blob/main/Original-Lambda.txt).
+11. Press **Ctrl + S** to save.
+12. Click **Deploy**. A confirmation message should appear: *Successfully updated the function (App Name).*
+13. Click **Test**, then select **Create new test event**.
+14. In the test event panel on the right, enter an **Event name** of your choice.
+15. Keep the event **Private**.
+16. Delete **Key3** and **Value3**.
+17. Replace **Value1** and **Value2** with numbers (remove quotation marks and the last comma).
+18. Scroll up and click **Save**.
     
 #### Step Four - Invoke Lambda Function with Amazon API Gateway
-1. Duplicate the console tab again. Navigate to API Gateway in the new tab.
-2. Scroll down. Click **Build** below the REST API.
-3. Enter a name. Leave everyother option at default.
-4. Click **Create API**
-5. Click **Create Method**
-6. Select POST as **Method type**
-7. Choose **Lambda Function** for **Integration type**
-8. Enter your Lambda function name.
-9. Scroll down and click **Create method**
-10. On the new page, Click **Deploy API**
-11. Select **New Stage**. Enter a stage name and deploy.
-12. Scroll down. Copy the invoke URL and store somewhere you safe and accessible.
-13. Go back to the Resources section. Click on **Enable CORS**
-     - Select Default 4XX, 5XX and POST
-     - Click **Save**
-    *By default, browsers enforce the Same-Origin Policy, which blocks requests from different domains for security reasons.
+1. **Duplicate** the AWS Console tab and navigate to **API Gateway**.  
+2. Scroll down and click **Build** under **REST API**.  
+3. Enter an **API name** and leave all other settings as default.  
+4. Click **Create API**.  
+5. Click **Create Method**.  
+6. Select **POST** as the **Method type**.  
+7. Choose **Lambda Function** as the **Integration type**.  
+8. Enter your **Lambda function name**.  
+9. Scroll down and click **Create Method**.  
+10. On the new page, click **Deploy API**.  
+11. Select **New Stage**, enter a **Stage name**, and deploy.  
+12. Scroll down, **copy the Invoke URL**, and store it safely.  
+13. Go to the **Resources** section and click **Enable CORS**.  
+    - Select **Default 4XX, 5XX, and POST**.  
+    - Click **Save**.  
+
+ *By default, browsers enforce the Same-Origin Policy, which blocks requests from different domains for security reasons.
     Enabling CORS lets your API explicitly permit requests from specific domains, headers, and methods.*
-14. 
+
+#### Step Five - Store and Return data using Amazon DynamoDB
+1. Navigate to Amazon DynamoDB
+2. Click on **Create table**
+3. Enter your preferred database name.
+4. Enter ID as partition key.
+5. Leave everyother option at default.
+6. Scroll down and Click **Create table**
+7. Click on the table link to open.
+8. Expand the additional info section. Copy the ARN and store safely in a notepad.
+
+### Step Six - Update the Lamba function permissions with AWS IAM
+1. Go back to your Lambda function page
+2. Click on the **Configuration tab** and select **Permissions**
+3. Click the link below **Role name**. This will redirect to IAM dashboard
+4. Click **Add permissions**. Select **Create inline policy**
+5. Select the JSON tab.
+   
 
 
 
