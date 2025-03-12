@@ -41,7 +41,9 @@ Beginner
 5. Enter your preferred **Function name**.  
 6. Choose **Python 3.9** for **Runtime**.  
 7. Leave all other settings at default.  
-8. Click **Create function** at the lower-right corner.  
+8. Click **Create function** at the lower-right corner.
+9. Scroll down to the **Code** tab.
+10. Replace the code with code in the 
 
 
 
