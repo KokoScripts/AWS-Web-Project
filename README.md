@@ -1,9 +1,8 @@
 # AWS-Web-Project
 This project demonstrates how to design and build a simple web application on AWS using five key services: Amplify, Lambda, IAM, API Gateway, and DynamoDB.
 
-I followed the [Tutorial by Tiny Tech Tutorials](https://youtu.be/7m_q1ldzw0U?si=-u2LWjtARnRJilov) YouTube tutorial to complete this step-by-step guide on my AWS account.
 
-### Requirements
+### Prerequisite
 - AWS account
 - Text editor (e.g., Notepad, VSCode)
 - Basic AWS knowledge
@@ -25,7 +24,7 @@ Beginner
 3. Select **Deploy without Git**.
    ![Image](https://github.com/user-attachments/assets/10f68086-8032-4a06-8310-39731b860ce0)
 4. Scroll down and click **Next**
-5.Upload the index.zip file created in Step 1
+5. Upload the index.zip file created in Step 1
    ![Image](https://github.com/user-attachments/assets/5d2e92ec-e74f-490a-a8aa-5b00239ff917)
 6.Change the **App name** (optional) and update **Branch name** from "staging" to "Dev".
    ![Image](https://github.com/user-attachments/assets/c9e5f607-5b8d-4645-b274-35b948d44ac5)
