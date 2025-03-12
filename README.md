@@ -54,7 +54,26 @@ Beginner
 18. Replace **Value1** and **Value2** with numbers (remove quotation marks and the last comma).
 19. Scroll up and click **Save**.
     
-#### Invoke Lambda Function with Amazon API Gateway
+#### Step Four - Invoke Lambda Function with Amazon API Gateway
+1. Duplicate the console tab again. Navigate to API Gateway in the new tab.
+2. Scroll down. Click **Build** below the REST API.
+3. Enter a name. Leave everyother option at default.
+4. Click **Create API**
+5. Click **Create Method**
+6. Select POST as **Method type**
+7. Choose **Lambda Function** for **Integration type**
+8. Enter your Lambda function name.
+9. Scroll down and click **Create method**
+10. On the new page, Click **Deploy API**
+11. Select **New Stage**. Enter a stage name and deploy.
+12. Scroll down. Copy the invoke URL and store somewhere you safe and accessible.
+13. Go back to the Resources section. Click on **Enable CORS**
+     - Select Default 4XX, 5XX and POST
+     - Click **Save**
+    *By default, browsers enforce the Same-Origin Policy, which blocks requests from different domains for security reasons.
+    Enabling CORS lets your API explicitly permit requests from specific domains, headers, and methods.*
+14. 
+
 
 
 
