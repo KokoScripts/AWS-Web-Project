@@ -89,6 +89,10 @@ Beginner
 3. Click the link below **Role name**. This will redirect to IAM dashboard
 4. Click **Add permissions**. Select **Create inline policy**
 5. Select the JSON tab.
+6. Replace the code there with the one [here](https://github.com/KokoScripts/AWS-Web-Project/blob/main/Execution-Role-Policy.json)
+7. Enter your DynamoDB ARN in line 15 of the code.
+8. Click **Next**. Enter policy name and create policy.
+9. Go back to your previous Lambda Function code and Replace it with this [one](). Click **Deploy**
    
 
 
