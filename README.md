@@ -92,7 +92,8 @@ Beginner
 6. Replace the code there with the one [here](https://github.com/KokoScripts/AWS-Web-Project/blob/main/Execution-Role-Policy.json)
 7. Enter your DynamoDB ARN in line 15 of the code.
 8. Click **Next**. Enter policy name and create policy.
-9. Go back to your previous Lambda Function code and Replace it with this [one](). Click **Deploy**
+9. Go back to your previous Lambda Function code and Replace it with this [one](https://github.com/KokoScripts/AWS-Web-Project/blob/main/PowerOfMathFunction%20-%20Lambda-FINAL.txt).
+10. Replace table name in the code (line 14) with your table name. Click **Deploy**
    
 
 
