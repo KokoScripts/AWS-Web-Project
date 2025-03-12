@@ -42,15 +42,19 @@ Beginner
 6. Choose **Python 3.9** for **Runtime**.  
 7. Leave all other settings at default.  
 8. Click **Create function** at the lower-right corner.
-9. Scroll down to the **Code** tab.
-10. Replace the default code with the code [here](https://github.com/KokoScripts/AWS-Web-Project/blob/main/Original-Lambda.txt)
-11. Ctrl + S to save
-12. Click **Deploy**. The prompt *Successfully updated the function (App Name).* should appear.
-13. Click **Test**. Then Click **Create new test event**
-14. In the test event dashboard that opos-up on the right, enter your preferred Event name.
-15. Keep it in Private
-16. Remove Key3 and Value3.
-17. Replace value1 and value2 with numbers
+9. ### Step 4: Update and Test the Lambda Function
+10. Scroll down to the **Code** tab.
+11. Replace the default code with the code from [this link](https://github.com/KokoScripts/AWS-Web-Project/blob/main/Original-Lambda.txt).
+12. Press **Ctrl + S** to save.
+13. Click **Deploy**. A confirmation message should appear: *Successfully updated the function (App Name).*
+14. Click **Test**, then select **Create new test event**.
+15. In the test event panel on the right, enter an **Event name** of your choice.
+16. Keep the event **Private**.
+17. Delete **Key3** and **Value3**.
+18. Replace **Value1** and **Value2** with numbers (remove quotation marks and the last comma).
+19. Scroll up and click **Save**.
+    
+#### Invoke Lambda Function with Amazon API Gateway
 
 
 
