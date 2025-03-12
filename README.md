@@ -10,7 +10,7 @@ This project demonstrates how to design and build a simple web application on AW
 ### Level
 Beginner 
 
-#### Step One - Create the HTML
+#### Step One - Create the HTML file
 1. Create a new file named index.html.
 2. Open it in your preferred text editor.
 3. Copy and paste the [HTML content](https://github.com/KokoScripts/AWS-Web-Project/blob/main/index.html) for this project into the file and save it.
