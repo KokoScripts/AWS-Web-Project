@@ -14,7 +14,7 @@ Beginner
 #### Step One - Create the HTML
 1. Create a new file named index.html.
 2. Open it in your preferred text editor.
-3. Copy and paste the HTML content (refer to this repository files) for this project into the file and save it.
+3. Copy and paste the [HTML content](https://github.com/KokoScripts/AWS-Web-Project/blob/main/index.html) for this project into the file and save it.
 4. Compress the file into a .zip format (e.g., index.zip).
 
 #### Step Two - Deploy the file on AWS Amplify
@@ -43,7 +43,14 @@ Beginner
 7. Leave all other settings at default.  
 8. Click **Create function** at the lower-right corner.
 9. Scroll down to the **Code** tab.
-10. Replace the code with code in the 
+10. Replace the default code with the code [here](https://github.com/KokoScripts/AWS-Web-Project/blob/main/Original-Lambda.txt)
+11. Ctrl + S to save
+12. Click **Deploy**. The prompt *Successfully updated the function (App Name).* should appear.
+13. Click **Test**. Then Click **Create new test event**
+14. In the test event dashboard that opos-up on the right, enter your preferred Event name.
+15. Keep it in Private
+16. Remove Key3 and Value3.
+17. Replace value1 and value2 with numbers
 
 
 
