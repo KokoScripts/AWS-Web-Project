@@ -1,39 +1,47 @@
 # AWS-Web-Project
-Designing and building a simple web application from scratch on AWS using five different services - Amplify, Lambda, IAM, API Gateway and DynamoDB.
+This project demonstrates how to design and build a simple web application on AWS using five key services: Amplify, Lambda, IAM, API Gateway, and DynamoDB.
 
-Here is a step-by-step on how I designed and built a full web app on AWS by following [Tutorial by Tiny Tech Tutorials](https://youtu.be/7m_q1ldzw0U?si=-u2LWjtARnRJilov) YouTube Tutorial.
+I followed the [Tutorial by Tiny Tech Tutorials](https://youtu.be/7m_q1ldzw0U?si=-u2LWjtARnRJilov) YouTube tutorial to complete this step-by-step guide on my AWS account.
 
 ### Requirements
 - AWS account
-- Text editor (e.g Notepad, VSCode, or anyone you are familiar with)
-- Basic knowledge of AWS
+- Text editor (e.g., Notepad, VSCode)
+- Basic AWS knowledge
   
 ### Level
 Beginner 
 
 #### Step One - Create the HTML
-1. Create a text file on your device and name it index.html.
-2. Launch your preferred text editor.
-3. Open the html file you created in your text editor.
-4. Copy and paste the html content under this project into that file. Save it.
-5. Zip/compress the index.html file on your device. It should have the name index.zip
+1. Create a new file named index.html.
+2. Open it in your preferred text editor.
+3. Copy and paste the HTML content (refer to this repository files) for this project into the file and save it.
+4. Compress the file into a .zip format (e.g., index.zip).
 
 #### Step Two - Deploy the file on AWS Amplify
-1. Sign into your AWS account. On the console, Navigate to Amplify.
+1. Sign into AWS account and navigate to Amplify.
    ![Image](https://github.com/user-attachments/assets/bbd22c6d-3b29-4403-8313-8c34d7d14ae9)
 2. Click  **Deploy an app**.
    ![Image](https://github.com/user-attachments/assets/ff22f309-c470-4eb6-86d2-8dd351964300)
 3. Select **Deploy without Git**.
    ![Image](https://github.com/user-attachments/assets/10f68086-8032-4a06-8310-39731b860ce0)
-4. Scroll down and click on **Next**
-5. Click **choose .zip folder** to upload the zip file you created in step one.
+4. Scroll down and click **Next**
+5.Upload the index.zip file created in Step 1
    ![Image](https://github.com/user-attachments/assets/5d2e92ec-e74f-490a-a8aa-5b00239ff917)
-6. Scroll up. Change the *app name* to any name of your choice. Change *branch name* from staging to Dev.
+6.Change the **App name** (optional) and update **Branch name** from "staging" to "Dev".
    ![Image](https://github.com/user-attachments/assets/c9e5f607-5b8d-4645-b274-35b948d44ac5)
 7. Scroll down and click **Save and deploy**
-8. Open the link to the newly deployed app on a new tab to test it.
+8. Open the generated link in a new tab to test your deployed app.
    ![Image](https://github.com/user-attachments/assets/64027ada-9773-4304-afaf-4a491715eb01) 
 
+#### Step Three - Automate calculation with AWS Lambda  
+1. **Duplicate the AWS Console tab** and open the new tab.  
+2. Navigate to **AWS Lambda**.  
+3. Click **Create a function**.  
+4. Select **Author from scratch**.  
+5. Enter your preferred **Function name**.  
+6. Choose **Python 3.9** for **Runtime**.  
+7. Leave all other settings at default.  
+8. Click **Create function** at the lower-right corner.  
 
 
 
