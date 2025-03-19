@@ -19,7 +19,7 @@ Your Lambda function runs with the IAM role **NewApp-role-borl3ai2**, but it doe
 3. Click **Add permission**. Select **create inline policy**
 4. Select the JSON tab and enter the code below:
 
-```
+```json
 {
     "Version": "2012-10-17",
     "Statement": [
@@ -32,7 +32,6 @@ Your Lambda function runs with the IAM role **NewApp-role-borl3ai2**, but it doe
         }
     ]
 }
-
 ```
 
 5. Click **Next**. 
