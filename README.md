@@ -97,9 +97,12 @@ Beginner
 10. Replace table name in the code (line 14) with your table name.
 11. Ctrl + S to save. Click **Deploy**
 12. Run a test one more time to be sure your code works.
-13. Refer to this [file](Test-error-troubleshoot) if the test fails.
+13. Refer to this [file](https://github.com/KokoScripts/AWS-Web-Project/blob/main/Test-error-troubleshoot) if the test fails.
    
-
+### Step 7 - Putting them all together
+1. Update the previous HTML code in your text editor to this [one](https://github.com/KokoScripts/AWS-Web-Project/blob/main/Final-index.html) Replace line 60 with your API Gateway URl
+2. Compress the file again.
+3. 
 
 
 
