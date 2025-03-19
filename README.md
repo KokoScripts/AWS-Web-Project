@@ -66,7 +66,7 @@ Beginner
 9. Scroll down and click **Create Method**.  
 10. On the new page, click **Deploy API**.  
 11. Select **New Stage**, enter a **Stage name**, and deploy.  
-12. Scroll down, **copy the Invoke URL**, and store it safely.  
+12. Scroll down, copy the **Invoke URL**, and store it safely.  
 13. Go to the **Resources** section and click **Enable CORS**.  
     - Select **Default 4XX, 5XX, and POST**.  
     - Click **Save**.  
@@ -86,7 +86,7 @@ Beginner
 
 ### Step Six - Update the Lamba function permissions with AWS IAM
 1. Go back to your Lambda function page
-2. Click on the **Configuration tab** and select **Permissions**
+2. Scroll down and open the **Configuration** tab and select **Permissions**
 3. Click the link below **Role name**. This will redirect to IAM dashboard
 4. Click **Add permissions**. Select **Create inline policy**
 5. Select the JSON tab.
