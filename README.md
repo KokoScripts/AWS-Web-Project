@@ -50,7 +50,9 @@ Beginner
 15. Keep the event **Private**.
 16. Delete **Key3** and **Value3**.
 17. Replace **Value1** and **Value2** with numbers (remove quotation marks and the last comma).
-18. Scroll up and click **Save**.
+18. Replace **Key1** with *base* and **Key2** with *exponent* respectively.
+19. Invoke the test. (A successfully response will have a statuscode:200 and the result of the math calculation).
+20. Scroll up and click **Save**.
     
 #### Step Four - Invoke Lambda Function with Amazon API Gateway
 1. **Duplicate** the AWS Console tab and navigate to **API Gateway**.  
