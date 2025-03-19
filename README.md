@@ -97,7 +97,7 @@ Beginner
 10. Replace table name in the code (line 14) with your table name.
 11. Ctrl + S to save. Click **Deploy**
 12. Run a test one more time to be sure your code works.
-13. Refer to this file > [Troubleshooting](), if the test fails.
+13. Refer to this [file](Test-error-troubleshoot) if the test fails.
    
 
 
